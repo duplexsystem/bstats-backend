@@ -46,6 +46,8 @@ export class BukkitServerSoftwareParser implements Parser {
       softwareName = 'Tuinity';
     } else if (lowercaseBukkitVersion.indexOf('purpur') !== -1) {
       softwareName = 'Purpur';
+    } else if (lowercaseBukkitVersion.indexOf('yatopia') !== -1) {
+      softwareName = 'Yatopia';
     }
 
     return [
